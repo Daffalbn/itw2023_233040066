@@ -1,0 +1,33 @@
+body {
+    background-color: aqua;
+     }
+    
+     h1 {
+        font-family: Comic Sans MS;
+        color: darkblue;
+        font-size: 60px;
+     }
+    
+     p {
+        text-align: justify;
+        font-family: Georgia;
+     }
+    
+     h3,h4 {
+        font-family: Georgia;
+     }
+
+     .link1 {
+        text-align: center;
+        color: orange
+
+        
+     }
+
+.link2 {
+    text-align: right;
+}
+
+     .warna {
+        color: white
+     }
