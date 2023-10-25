@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pertemuan 7 - latihan 1</title>
+    <style>
+        
+        body {
+            background-color: white;
+        }
+        div {
+            width: 200px;
+            height: 200px;
+            margin: 50px auto;
+        
+        }
+
+        .kotak1 {
+            background-color: salmon;
+            position: relative ;
+            border-radius: 50% 0% 50% 0;
+            
+        }
+        .kotak2 {
+        background-color: lightblue;
+        box-shadow: 0px 0px 0px 10px red, 0px 0px 0px 20px yellow, 0px 0px 0px 30px green, 0px 0px 0px 40px blue, 0px 0px 0px 50px black;
+      /* box-shadow <x_offset> <y-offset> <blur> <color> <size>  */
+       transition: 2s;
+    }
+
+        .kotak2:hover {
+            transform: rotate(360deg);
+            border-radius: 50%
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <div class="kotak1"></div>
+    <div class="kotak2"></div>
+
+    
+</body>
+</html>
